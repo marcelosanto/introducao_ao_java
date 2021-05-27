@@ -1,2 +1,4 @@
 Main.java
  Main
+exercicios/numero01.java
+ exercicios.numero01
