@@ -6,3 +6,5 @@ casting/main.java
  casting.main
 entradadedados/main.java
  entradadedados.main
+matematica/main.java
+ matematica.main
