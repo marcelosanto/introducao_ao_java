@@ -8,3 +8,7 @@ entradadedados/main.java
  entradadedados.main
 matematica/main.java
  matematica.main
+exercicios/numero02.java
+ exercicios.numero02
+estruturacondicional/main.java
+ estruturacondicional.main
