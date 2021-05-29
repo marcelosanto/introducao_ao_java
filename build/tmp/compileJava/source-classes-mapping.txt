@@ -12,3 +12,5 @@ exercicios/numero02.java
  exercicios.numero02
 estruturacondicional/main.java
  estruturacondicional.main
+exercicios/numero03.java
+ exercicios.numero03
