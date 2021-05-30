@@ -1,11 +1,13 @@
 package estruturacondicional;
 
+import java.util.Locale;
 import java.util.Scanner;
 
 public class main {
     public static void main(String[] args) {
         //ifOuElse();
-        switchCase();
+        //switchCase();
+        ternarioExpressao();
     }
 
     public static void ifOuElse() {
@@ -61,5 +63,18 @@ public class main {
         }
 
         System.out.println("Dia da semana: " + dia);
+    }
+
+    public  static void ternarioExpressao(){
+        Locale.setDefault(Locale.US);
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Informe o preço:");
+        double preco = sc.nextDouble();
+
+        double desconto = (preco < 20.0) ? preco * 0.1 : preco * 0.05;
+        System.out.printf("Seu desconto é de: %.2f" , desconto);
+
+
     }
 }
