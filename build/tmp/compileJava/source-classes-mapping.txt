@@ -1,18 +1,20 @@
-exercicios/numero01.java
- exercicios.numero01
-Main.java
- Main
-casting/main.java
- casting.main
-entradadedados/main.java
- entradadedados.main
-matematica/main.java
- matematica.main
-exercicios/numero02.java
- exercicios.numero02
 exercicios/numero03.java
  exercicios.numero03
-estruturacondicional/main.java
- estruturacondicional.main
+casting/main.java
+ casting.main
+Main.java
+ Main
+entradadedados/main.java
+ entradadedados.main
 estruturarepeticao/main.java
  estruturarepeticao.main
+estruturacondicional/main.java
+ estruturacondicional.main
+exercicios/numero01.java
+ exercicios.numero01
+exercicios/numero02.java
+ exercicios.numero02
+matematica/main.java
+ matematica.main
+orientacaoaobjetos/main.java
+ orientacaoaobjetos.main

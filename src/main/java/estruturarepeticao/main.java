@@ -1,10 +1,11 @@
 package estruturarepeticao;
 
+import java.util.Locale;
 import java.util.Scanner;
 
 public class main {
     public static void main(String[] args){
-        usandoFor();
+        usandoDoWhile();
     }
 
     public static void usandoWhile(){
@@ -38,6 +39,30 @@ public class main {
         }
 
         System.out.println(soma);
+
+        sc.close();
+    }
+
+    public static void usandoDoWhile(){
+        Locale.setDefault(Locale.US);
+        Scanner sc = new Scanner(System.in);
+
+
+        double x ;
+
+        double  fahrenheit = 0;
+        char resp;
+
+        do {
+            System.out.println("Digite a temperatura em Celsius: ");
+            x = sc.nextDouble();
+           fahrenheit = x * 1.8 + 32;
+            System.out.printf("Equivalente em Fahrenheit: %.1f %n", fahrenheit);
+            System.out.println("Deseja repetir (s/n)? ");
+            resp = sc.next().charAt(0);
+        }while (resp != 'n');
+
+
 
         sc.close();
     }
