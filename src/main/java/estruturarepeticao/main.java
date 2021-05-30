@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class main {
     public static void main(String[] args){
-        usandoWhile();
+        usandoFor();
     }
 
     public static void usandoWhile(){
@@ -21,6 +21,23 @@ public class main {
         }
 
         System.out.println(y);
+
+        sc.close();
+    }
+
+    public static void usandoFor(){
+        Scanner sc = new Scanner(System.in);
+
+        int x = sc.nextInt();
+
+        int soma = 0;
+
+        for (int i =0; i<x; i++){
+            soma += i;
+
+        }
+
+        System.out.println(soma);
 
         sc.close();
     }
