@@ -16,5 +16,9 @@ exercicios/numero02.java
  exercicios.numero02
 matematica/main.java
  matematica.main
-orientacaoaobjetos/main.java
- orientacaoaobjetos.main
+orientacaoaobjetos/oldmain.java
+ orientacaoaobjetos.oldmain
+orientacaoaobjetos/entities/Triangle.java
+ orientacaoaobjetos.entities.Triangle
+orientacaoaobjetos/Main.java
+ orientacaoaobjetos.Main
