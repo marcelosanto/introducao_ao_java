@@ -22,3 +22,7 @@ orientacaoaobjetos/entities/Triangle.java
  orientacaoaobjetos.entities.Triangle
 orientacaoaobjetos/Main.java
  orientacaoaobjetos.Main
+orientacaoaobjetos/program/entities/Product.java
+ orientacaoaobjetos.program.entities.Product
+orientacaoaobjetos/program/Program.java
+ orientacaoaobjetos.program.Program
