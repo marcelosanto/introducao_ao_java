@@ -38,3 +38,7 @@ exercicios/mediaescolar/entities/Media.java
  exercicios.mediaescolar.entities.Media
 exercicios/mediaescolar/Main.java
  exercicios.mediaescolar.Main
+construtores/program/Program.java
+ construtores.program.Program
+construtores/program/entities/Product.java
+ construtores.program.entities.Product
