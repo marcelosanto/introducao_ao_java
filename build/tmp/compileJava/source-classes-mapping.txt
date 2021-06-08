@@ -6,39 +6,43 @@ orientacaoaobjetos/program/Program.java
  orientacaoaobjetos.program.Program
 orientacaoaobjetos/oldmain.java
  orientacaoaobjetos.oldmain
+construtores/program/entities/Product.java
+ construtores.program.entities.Product
+orientacaoaobjetos/Main.java
+ orientacaoaobjetos.Main
 orientacaoaobjetos/entities/Triangle.java
  orientacaoaobjetos.entities.Triangle
+exercicios/rectangle/entities/Rectangle.java
+ exercicios.rectangle.entities.Rectangle
 entradadedados/main.java
  entradadedados.main
 estruturacondicional/main.java
  estruturacondicional.main
+exercicios/salario/Program.java
+ exercicios.salario.Program
 exercicios/numero02.java
  exercicios.numero02
 matematica/main.java
  matematica.main
-Main.java
- Main
-orientacaoaobjetos/program/entities/Product.java
- orientacaoaobjetos.program.entities.Product
-estruturarepeticao/main.java
- estruturarepeticao.main
-exercicios/numero01.java
- exercicios.numero01
-orientacaoaobjetos/Main.java
- orientacaoaobjetos.Main
-exercicios/rectangle/entities/Rectangle.java
- exercicios.rectangle.entities.Rectangle
-exercicios/rectangle/Program.java
- exercicios.rectangle.Program
-exercicios/salario/Program.java
- exercicios.salario.Program
 exercicios/salario/entities/Employee.java
  exercicios.salario.entities.Employee
 exercicios/mediaescolar/entities/Media.java
  exercicios.mediaescolar.entities.Media
-exercicios/mediaescolar/Main.java
- exercicios.mediaescolar.Main
+Main.java
+ Main
 construtores/program/Program.java
  construtores.program.Program
-construtores/program/entities/Product.java
- construtores.program.entities.Product
+orientacaoaobjetos/program/entities/Product.java
+ orientacaoaobjetos.program.entities.Product
+exercicios/mediaescolar/Main.java
+ exercicios.mediaescolar.Main
+exercicios/rectangle/Program.java
+ exercicios.rectangle.Program
+estruturarepeticao/main.java
+ estruturarepeticao.main
+exercicios/numero01.java
+ exercicios.numero01
+exercicios/bank/entities/Account.java
+ exercicios.bank.entities.Account
+exercicios/bank/Bank.java
+ exercicios.bank.Bank
