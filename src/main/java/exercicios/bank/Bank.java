@@ -22,7 +22,8 @@ public class Bank {
 
         // Entra com nome do dono/a da conta
         System.out.print("Enter account holder: ");
-        holder = sc.next();
+        sc.nextLine();
+        holder = sc.nextLine();
 
         // Deposito inicial
         System.out.print("Is there na initial deposit (y/n)? ");
@@ -42,15 +43,12 @@ public class Bank {
         account.Deposit(deposity);
         System.out.print("Updated account data: " + account);
 
-
         // Entra com o valor do saque
         System.out.print("Enter a withdraw value: ");
         deposity = sc.nextDouble();
 
         account.WithdrawDeposit(deposity);
         System.out.print("Updated account data: " + account);
-
-
 
         System.out.println("Account data: \n" + account);
 

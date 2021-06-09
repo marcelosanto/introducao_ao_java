@@ -1,17 +1,17 @@
 exercicios/numero03.java
  exercicios.numero03
-casting/main.java
- casting.main
 orientacaoaobjetos/program/Program.java
  orientacaoaobjetos.program.Program
+casting/main.java
+ casting.main
 orientacaoaobjetos/oldmain.java
  orientacaoaobjetos.oldmain
 construtores/program/entities/Product.java
  construtores.program.entities.Product
-orientacaoaobjetos/Main.java
- orientacaoaobjetos.Main
 orientacaoaobjetos/entities/Triangle.java
  orientacaoaobjetos.entities.Triangle
+exercicios/bank/Bank.java
+ exercicios.bank.Bank
 exercicios/rectangle/entities/Rectangle.java
  exercicios.rectangle.entities.Rectangle
 entradadedados/main.java
@@ -24,8 +24,8 @@ exercicios/numero02.java
  exercicios.numero02
 matematica/main.java
  matematica.main
-exercicios/salario/entities/Employee.java
- exercicios.salario.entities.Employee
+exercicios/bank/entities/Account.java
+ exercicios.bank.entities.Account
 exercicios/mediaescolar/entities/Media.java
  exercicios.mediaescolar.entities.Media
 Main.java
@@ -42,7 +42,13 @@ estruturarepeticao/main.java
  estruturarepeticao.main
 exercicios/numero01.java
  exercicios.numero01
-exercicios/bank/entities/Account.java
- exercicios.bank.entities.Account
-exercicios/bank/Bank.java
- exercicios.bank.Bank
+exercicios/salario/entities/Employee.java
+ exercicios.salario.entities.Employee
+orientacaoaobjetos/Main.java
+ orientacaoaobjetos.Main
+vetores/Program.java
+ vetores.Program
+vetores/vetore2/entities/Product.java
+ vetores.vetore2.entities.Product
+vetores/vetore2/Application.java
+ vetores.vetore2.Application
