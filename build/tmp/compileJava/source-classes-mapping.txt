@@ -1,54 +1,58 @@
-exercicios/numero03.java
- exercicios.numero03
-orientacaoaobjetos/program/Program.java
- orientacaoaobjetos.program.Program
 casting/main.java
  casting.main
+orientacaoaobjetos/program/Program.java
+ orientacaoaobjetos.program.Program
 orientacaoaobjetos/oldmain.java
  orientacaoaobjetos.oldmain
 construtores/program/entities/Product.java
  construtores.program.entities.Product
-orientacaoaobjetos/entities/Triangle.java
- orientacaoaobjetos.entities.Triangle
 exercicios/bank/Bank.java
  exercicios.bank.Bank
 exercicios/rectangle/entities/Rectangle.java
  exercicios.rectangle.entities.Rectangle
 entradadedados/main.java
  entradadedados.main
-estruturacondicional/main.java
- estruturacondicional.main
 exercicios/salario/Program.java
  exercicios.salario.Program
 exercicios/numero02.java
  exercicios.numero02
-matematica/main.java
- matematica.main
-exercicios/bank/entities/Account.java
- exercicios.bank.entities.Account
-exercicios/mediaescolar/entities/Media.java
- exercicios.mediaescolar.entities.Media
 Main.java
  Main
-construtores/program/Program.java
- construtores.program.Program
 orientacaoaobjetos/program/entities/Product.java
  orientacaoaobjetos.program.entities.Product
-exercicios/mediaescolar/Main.java
- exercicios.mediaescolar.Main
-exercicios/rectangle/Program.java
- exercicios.rectangle.Program
 estruturarepeticao/main.java
  estruturarepeticao.main
 exercicios/numero01.java
  exercicios.numero01
 exercicios/salario/entities/Employee.java
  exercicios.salario.entities.Employee
-orientacaoaobjetos/Main.java
- orientacaoaobjetos.Main
+exercicios/numero03.java
+ exercicios.numero03
 vetores/Program.java
  vetores.Program
+foreach/ForEach.java
+ foreach.ForEach
+orientacaoaobjetos/entities/Triangle.java
+ orientacaoaobjetos.entities.Triangle
 vetores/vetore2/entities/Product.java
  vetores.vetore2.entities.Product
+estruturacondicional/main.java
+ estruturacondicional.main
+matematica/main.java
+ matematica.main
+exercicios/bank/entities/Account.java
+ exercicios.bank.entities.Account
+exercicios/mediaescolar/entities/Media.java
+ exercicios.mediaescolar.entities.Media
+construtores/program/Program.java
+ construtores.program.Program
 vetores/vetore2/Application.java
  vetores.vetore2.Application
+exercicios/mediaescolar/Main.java
+ exercicios.mediaescolar.Main
+exercicios/rectangle/Program.java
+ exercicios.rectangle.Program
+orientacaoaobjetos/Main.java
+ orientacaoaobjetos.Main
+listas/Listas.java
+ listas.Listas
