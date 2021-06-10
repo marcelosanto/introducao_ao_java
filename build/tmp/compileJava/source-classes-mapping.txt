@@ -54,5 +54,9 @@ exercicios/rectangle/Program.java
  exercicios.rectangle.Program
 orientacaoaobjetos/Main.java
  orientacaoaobjetos.Main
+matrizes/main.java
+ matrizes.main
 listas/Listas.java
  listas.Listas
+datas/Program.java
+ datas.Program
