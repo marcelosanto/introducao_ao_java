@@ -5,7 +5,9 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class Listas {
-    public  static void main(String[] args){
+
+    public static void main(String[] args) {
+
         List<String> list = new ArrayList<>();
 
         list.add("Marcelo");
@@ -20,13 +22,13 @@ public class Listas {
         //Remover usando a posição ou o dado da string
         //list.remove(3);
 
-        for (String dado: list) {
+        for (String dado : list) {
             System.out.println(dado);
         }
         System.out.println("------------");
 
         list.removeIf(x -> x.charAt(0) == 'M');
-        for (String dado: list) {
+        for (String dado : list) {
             System.out.println(dado);
         }
         System.out.println("------------");
@@ -37,7 +39,7 @@ public class Listas {
 
         //Filtrar nomes
         List<String> result = list.stream().filter(x -> x.charAt(0) == 'A').collect(Collectors.toList());
-        for (String dado: result) {
+        for (String dado : result) {
             System.out.println(dado);
         }
         System.out.println("------------");
