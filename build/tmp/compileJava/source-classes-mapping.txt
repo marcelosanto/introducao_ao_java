@@ -78,3 +78,9 @@ enumeracoes/Enumeracoes.java
  enumeracoes.Enumeracoes
 orientacaoaobjetos/Main.java
  orientacaoaobjetos.Main
+stringbuilders/entities/Comment.java
+ stringbuilders.entities.Comment
+stringbuilders/entities/Post.java
+ stringbuilders.entities.Post
+stringbuilders/App.java
+ stringbuilders.App
