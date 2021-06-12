@@ -4,7 +4,7 @@ public class BussinesAccount extends Account {
 
     private Double loanLimit;
 
-    public BussinesAccount(){
+    public BussinesAccount() {
         super();
     }
 
@@ -21,9 +21,15 @@ public class BussinesAccount extends Account {
         this.loanLimit = loanLimit;
     }
 
-    public void loan(double amount){
-        if(amount <= loanLimit) {
-           balance += amount - 10.0;
+    public void loan(double amount) {
+        if (amount <= loanLimit) {
+            balance += amount - 10.0;
         }
+    }
+
+    @Override
+    public void withdraw(Double amount) {
+        super.withdraw(amount);
+        balance -= 2;
     }
 }

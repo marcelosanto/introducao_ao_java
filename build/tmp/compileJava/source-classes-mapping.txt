@@ -84,3 +84,11 @@ stringbuilders/entities/Post.java
  stringbuilders.entities.Post
 stringbuilders/App.java
  stringbuilders.App
+heranca/entities/Account.java
+ heranca.entities.Account
+heranca/entities/SavingsAccount.java
+ heranca.entities.SavingsAccount
+heranca/entities/BussinesAccount.java
+ heranca.entities.BussinesAccount
+heranca/Main.java
+ heranca.Main
