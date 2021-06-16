@@ -21,5 +21,18 @@ public class Main {
         list.add(new SavingsAccount(1007, "Nougueira", 280.00, 0.01));
         list.add(new BussinesAccount(1008, "Jessica", 1890.0, 200.0));
 
+        double sum = 0.0;
+        for (Account acc : list) {
+            sum += acc.getBalance();
+        }
+        System.out.printf("Total balance: %.2f%n", sum);
+
+        for (Account acc : list) {
+            acc.deposity(10.0);
+        }
+        for (Account acc : list) {
+            System.out.printf("Updated balance for account %d: %.2f%n", acc.getNumber(), acc.getBalance());
+        }
+
     }
 }
