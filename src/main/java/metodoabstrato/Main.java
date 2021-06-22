@@ -5,6 +5,8 @@ import metodoabstrato.entities.Rectangle;
 import metodoabstrato.entities.Shape;
 import metodoabstrato.entities.enums.Color;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -12,6 +14,8 @@ public class Main {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
+
+        List<Shape> list = new ArrayList<>();
 
         System.out.print("Enter the number of shapes: ");
         int n = sc.nextInt();
@@ -32,8 +36,8 @@ public class Main {
                 System.out.print("Height: ");
                 double height = sc.nextDouble();
 
-                Shape rect = new Rectangle(Color.valueOf(color), width, height);
-                System.out.println("SHAPE AREAS: \n" + rect.area());
+                list.add(new Rectangle(Color.valueOf(color), width, height));
+
             } else if (tipo == 'c') {
                 System.out.print("Color (BLACK/BLUE/RED): ");
                 sc.nextLine();
@@ -42,11 +46,17 @@ public class Main {
                 System.out.print("Radius: ");
                 double radius = sc.nextDouble();
 
-
-                Shape circle = new Circle(Color.valueOf(color), radius);
-                System.out.println("SHAPE AREAS: \n" + circle.area());
+                list.add(new Circle(Color.valueOf(color), radius));
             }
 
         }
+
+        System.out.println();
+        System.out.println("SHAPE AREAS: ");
+        for (Shape shape : list) {
+            System.out.println(String.format("%.2f", shape.area()));
+        }
+
+        sc.close();
     }
 }
