@@ -5,6 +5,23 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        method();
+
+        System.out.println("End of program");
+
+
+    }
+
+    public static void method() {
+        System.out.println("Method 1 Start");
+
+        method2();
+
+        System.out.println("Method 1 End");
+    }
+
+    public static void method2() {
+        System.out.println("Method 2 Start");
         Scanner sc = new Scanner(System.in);
 
         try {
@@ -13,12 +30,13 @@ public class Main {
             System.out.println(vect[position]);
         } catch (ArrayIndexOutOfBoundsException event) {
             System.out.println("Invalid position");
+            event.printStackTrace();
         } catch (InputMismatchException event) {
             System.out.println("Invalid character");
+            event.printStackTrace();
         }
 
-        System.out.println("End of program");
-
         sc.close();
+        System.out.println("Method 2 End");
     }
 }
