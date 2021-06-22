@@ -34,9 +34,11 @@ public class Main {
         } catch (InputMismatchException event) {
             System.out.println("Invalid character");
             event.printStackTrace();
+        } finally {
+            if (sc != null) sc.close();
+            System.out.println("Finally executed");
         }
 
-        sc.close();
         System.out.println("Method 2 End");
     }
 }
