@@ -22,9 +22,8 @@ public class Main {
 
     public static void method2() {
         System.out.println("Method 2 Start");
-        Scanner sc = new Scanner(System.in);
 
-        try {
+        try (Scanner sc = new Scanner(System.in)) {
             String[] vect = sc.nextLine().split(" ");
             int position = sc.nextInt();
             System.out.println(vect[position]);
@@ -35,7 +34,6 @@ public class Main {
             System.out.println("Invalid character");
             event.printStackTrace();
         } finally {
-            if (sc != null) sc.close();
             System.out.println("Finally executed");
         }
 
