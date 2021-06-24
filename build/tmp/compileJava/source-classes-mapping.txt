@@ -120,3 +120,7 @@ abstratas/entities/BussinesAccount.java
  abstratas.entities.BussinesAccount
 tryandcatch/Main.java
  tryandcatch.Main
+exercicios/hotel/Main.java
+ exercicios.hotel.Main
+exercicios/hotel/model/entities/Reservation.java
+ exercicios.hotel.model.entities.Reservation
