@@ -40,6 +40,8 @@ public class Main {
             System.out.println("Invalid date format");
         } catch (DomainException env) {
             System.out.println("Error in reservation: " + env.getMessage());
+        } catch (RuntimeException env) {
+            System.out.println("Unexpected error!");
         }
         sc.close();
     }
