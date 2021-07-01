@@ -126,3 +126,15 @@ excecoes/hotel/model/exceptions/DomainException.java
  excecoes.hotel.model.exceptions.DomainException
 excecoes/hotel/Main.java
  excecoes.hotel.Main
+interrface/entities/Rectangle.java
+ interrface.entities.Rectangle
+interrface/entities/enums/Color.java
+ interrface.entities.enums.Color
+interrface/entities/Shape.java
+ interrface.entities.Shape
+interrface/entities/AbstractShape.java
+ interrface.entities.AbstractShape
+interrface/entities/Circle.java
+ interrface.entities.Circle
+interrface/Main.java
+ interrface.Main
