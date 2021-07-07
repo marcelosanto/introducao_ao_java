@@ -138,11 +138,21 @@ interrface/entities/Circle.java
  interrface.entities.Circle
 interrface/Main.java
  interrface.Main
+herancamultipla/devices/Device.java
+ herancamultipla.devices.Device
+herancamultipla/devices/ConcretePrinter.java
+ herancamultipla.devices.ConcretePrinter
+herancamultipla/devices/ConcreteScanner.java
+ herancamultipla.devices.ConcreteScanner
 herancamultipla/devices/Printer.java
  herancamultipla.devices.Printer
+herancamultipla/devices/ComboDevice.java
+ herancamultipla.devices.ComboDevice
 herancamultipla/devices/Scanner.java
  herancamultipla.devices.Scanner
 herancamultipla/Program.java
  herancamultipla.Program
-herancamultipla/devices/Device.java
- herancamultipla.devices.Device
+interfcomparable/entities/Employee.java
+ interfcomparable.entities.Employee
+interfcomparable/Program.java
+ interfcomparable.Program
